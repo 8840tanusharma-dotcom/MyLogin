@@ -189,5 +189,4 @@ Open `server/.env` and fill in the credentials from each respective provider:
 | :--- | :--- | :--- |
 | **Google** | `http://localhost:5000/auth/google/callback` | `https://your-api.com/auth/google/callback` |
 | **GitHub** | `http://localhost:5000/auth/github/callback` | `https://your-api.com/auth/github/callback` |
-| **Facebook** | `http://localhost:5000/auth/facebook/callback` | `https://your-api.com/auth/facebook/callback` |
 | **LinkedIn** | `http://localhost:5000/auth/linkedin/callback` | `https://your-api.com/auth/linkedin/callback` |
