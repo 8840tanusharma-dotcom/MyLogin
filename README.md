@@ -3,7 +3,6 @@
 A complete, production-grade social login and authentication system built with **React (Vite)**, **Node.js (Express)**, **Passport.js**, and native **SQLite** with built-in account linking for:
 * 🟢 **Google OAuth 2.0**
 * 🐱 **GitHub OAuth 2.0**
-* 🔵 **Facebook Login**
 * 💼 **LinkedIn OAuth 2.0 (OpenID Connect)**
 
 ---
@@ -139,20 +138,6 @@ Open `server/.env` and fill in the credentials from each respective provider:
    ```env
    GITHUB_CLIENT_ID=your_github_client_id
    GITHUB_CLIENT_SECRET=your_github_client_secret
-   ```
-
----
-
-### 3. Facebook / Meta Login
-1. Go to [Meta for Developers](https://developers.facebook.com/).
-2. Click **My Apps** > **Create App** > Select **Authenticate and request data from users with Facebook Login**.
-3. Under **Facebook Login** > **Settings** > **Valid OAuth Redirect URIs**, enter:
-   * `http://localhost:5000/auth/facebook/callback`
-4. Under **App settings** > **Basic**, copy your **App ID** and **App Secret**.
-5. Paste them into `server/.env`:
-   ```env
-   FACEBOOK_APP_ID=your_app_id
-   FACEBOOK_APP_SECRET=your_app_secret
    ```
 
 ---
